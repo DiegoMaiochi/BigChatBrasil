@@ -1,0 +1,29 @@
+{
+  "mensagens": [
+    { "id": 1, "img": "/SelfieMulher.png", "nome": "Maria", "tempo": "08:45", "texto": "Oi, tudo bem?", "numero": "(11) 91234-5678" },
+    { "id": 2, "img": "/SelfieHomem.png", "nome": "João", "tempo": "08:47", "texto": "Vamos conversar!", "numero": "(21) 99876-5432" },
+    { "id": 3, "img": "/SelfieHomem.png", "nome": "Carlos", "tempo": "09:00", "texto": "Reunião às 14h.", "numero": "(31) 98765-4321" },
+    { "id": 4, "img": "/SelfieMulher.png", "nome": "Ana", "tempo": "09:12", "texto": "Projeto entregue!", "numero": "(41) 99123-4567" },
+    { "id": 5, "img": "/SelfieHomem.png", "nome": "Pedro", "tempo": "09:25", "texto": "Almoço amanhã?", "numero": "(51) 99555-7788" },
+    { "id": 6, "img": "/SelfieMulher.png", "nome": "Luiza", "tempo": "09:34", "texto": "Parabéns pelo trabalho!", "numero": "(61) 98989-8989" },
+    { "id": 7, "img": "/SelfieMulher.png", "nome": "Fernanda", "tempo": "09:41", "texto": "Vamos ao cinema?", "numero": "(71) 99666-1122" },
+    { "id": 8, "img": "/SelfieHomem.png", "nome": "Ricardo", "tempo": "09:55", "texto": "Feliz aniversário!", "numero": "(81) 97777-3344" },
+    { "id": 9, "img": "/SelfieMulher.png", "nome": "Sofia", "tempo": "10:02", "texto": "Você viu o último episódio?", "numero": "(91) 98888-5566" },
+    { "id": 10, "img": "/SelfieHomem.png", "nome": "Bruno", "tempo": "10:15", "texto": "Precisamos falar sobre o relatório.", "numero": "(85) 98080-7070" }
+  ],
+  
+  "usuarios": [
+    {
+      "id": 1,
+      "tipo": "pf",
+      "documento": "123456789",
+      "senha": "1234Mudar@"
+    },
+    {
+      "id": 2,
+      "tipo": "pj",
+      "documento": "12345678912",
+      "senha": "1234Mudar@"
+    }
+  ]
+}
