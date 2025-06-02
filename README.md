@@ -36,5 +36,6 @@
     - O json-server que simula a API no http://localhost:3001
     - Isso é possível graças ao pacote concurrently, que executa os dois scripts ao mesmo tempo.
     - Portanto, não é necessário rodar o comando "npx json-server --watch db.json --port 3001" separadamente!
+4. Abra no navegador em: http://localhost:5173
 
 ----------------------------------------------------------------------------------------------------------------------------------------
