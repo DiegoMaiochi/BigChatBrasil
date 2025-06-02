@@ -1,5 +1,4 @@
-🚀 Big Chat Brasil 💬
-Big Chat Brasil é um app web de chat em tempo real que oferece uma experiência personalizada para usuários Pessoa Física (PF) e Pessoa Jurídica (PJ). Faça login, converse, controle seus créditos e fique conectado!
+🚀 Big Chat Brasil 💬 é um app web de chat em tempo real que oferece uma experiência personalizada para usuários Pessoa Física (PF) e Pessoa Jurídica (PJ). Faça login, converse, controle seus créditos e fique conectado!
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
@@ -21,5 +20,21 @@ Big Chat Brasil é um app web de chat em tempo real que oferece uma experiência
 - React Toastify (notificações)
 - JSON Server (API mock)
 - Vite (build e dev server)
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+🚀 Como Rodar o Projeto Localmente
+1. Clone o repositório:
+   git clone https://github.com/seu-usuario/big-chat-brasil.git
+   cd big-chat-brasil
+2. Instale as dependências:
+   npm install
+3. Inicie o ambiente de desenvolvimento com frontend e backend mock juntos:
+   npm run dev
+    - Atenção: O comando acima roda dois servidores simultaneamente:
+    - O frontend React (via Vite)
+    - O json-server que simula a API no http://localhost:3001
+    - Isso é possível graças ao pacote concurrently, que executa os dois scripts ao mesmo tempo.
+    - Portanto, não é necessário rodar o comando "npx json-server --watch db.json --port 3001" separadamente!
 
 ----------------------------------------------------------------------------------------------------------------------------------------
