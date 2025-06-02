@@ -39,3 +39,10 @@
 4. Abra no navegador em: http://localhost:5173
 
 ----------------------------------------------------------------------------------------------------------------------------------------
+
+🐳 Como Rodar com Docker
+   - Pré-requisitos
+      - Docker Desktop instalado e em execução no seu sistema.
+1. Build da imagem: docker build -t big-chat-brasil .
+2. Execute o container: docker run -p 5173:5173 -p 3001:3001 big-chat-brasil
+3. Depois de iniciado, basta acessar o link: http://localhost:5173
