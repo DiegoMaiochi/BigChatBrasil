@@ -35,5 +35,6 @@
     - Isso é possível graças ao pacote concurrently, que executa os dois scripts ao mesmo tempo.
     - Portanto, não é necessário rodar o comando "npx json-server --watch db.json --port 3001" separadamente!
 5. Abra no navegador em: http://localhost:5173
+6. Para conseguir logar na plataforma o usuário precisa informar as credenciais correas, que podem ser consultadas no arquivo db.json
 
 ----------------------------------------------------------------------------------------------------------------------------------------
