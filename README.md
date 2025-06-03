@@ -26,23 +26,14 @@
 🚀 Como Rodar o Projeto Localmente
 1. Clone o repositório:
    git clone https://github.com/seu-usuario/big-chat-brasil.git
-   cd big-chat-brasil
-2. Instale as dependências:
-   npm install
-3. Inicie o ambiente de desenvolvimento com frontend e backend mock juntos:
-   npm run dev
+2. Acesse a pasta do projeto: cd big-chat-brasil
+3. Instale as dependências: npm install
+4. Inicie o ambiente de desenvolvimento com frontend e backend mock juntos: npm run dev
     - Atenção: O comando acima roda dois servidores simultaneamente:
     - O frontend React (via Vite)
     - O json-server que simula a API no http://localhost:3001
     - Isso é possível graças ao pacote concurrently, que executa os dois scripts ao mesmo tempo.
     - Portanto, não é necessário rodar o comando "npx json-server --watch db.json --port 3001" separadamente!
-4. Abra no navegador em: http://localhost:5173
+5. Abra no navegador em: http://localhost:5173
 
 ----------------------------------------------------------------------------------------------------------------------------------------
-
-🐳 Como Rodar com Docker
-   - Pré-requisitos
-      - Docker Desktop instalado e em execução no seu sistema.
-1. Build da imagem: docker build -t big-chat-brasil .
-2. Execute o container: docker run -p 5173:5173 -p 3001:3001 big-chat-brasil
-3. Depois de iniciado, basta acessar o link: http://localhost:5173
