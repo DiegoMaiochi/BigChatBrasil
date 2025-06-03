@@ -26,7 +26,7 @@
 🚀 Como Rodar o Projeto Localmente
 1. Clone o repositório:
    git clone https://github.com/seu-usuario/big-chat-brasil.git
-2. Acesse a pasta do projeto: cd big-chat-brasil
+2. Acesse a pasta do projeto: cd BigChatBrasil
 3. Instale as dependências: npm install
 4. Inicie o ambiente de desenvolvimento com frontend e backend mock juntos: npm run dev
     - Atenção: O comando acima roda dois servidores simultaneamente:
